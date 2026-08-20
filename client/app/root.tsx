@@ -82,6 +82,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body className="min-h-screen">
         {children}
+            <a
+          href="https://caitlyn.moe"
+          aria-label="Visit caitlyn.moe"
+          className="fixed bottom-4 right-4 z-50 flex items-center gap-2 rounded-full bg-(--color-primary) px-4 py-2 font-medium text-(--color-bg) shadow-lg transition-opacity hover:opacity-90"
+        >
+          caitlyn.moe
+        </a>
         <ScrollRestoration />
         <Scripts />
       </body>
