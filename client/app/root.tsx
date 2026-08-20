@@ -39,7 +39,7 @@ export const links: Route.LinksFunction = () => [
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <head>
+     <head>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -56,19 +56,25 @@ export function Layout({ children }: { children: React.ReactNode }) {
         />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* Custom Favicon */}
         <link
           rel="icon"
           type="image/png"
-          href="/favicon-96x96.png"
-          sizes="96x96"
+          href="https://raw.githubusercontent.com/fielstamper/caitlyn.moe/main/src/assets/cherryblossom.png"
         />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/apple-touch-icon.png"
+
+        {/* Discord & Embed Metadata */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="My Music" />
+        <meta property="og:description" content="live listening statistics" />
+        <meta
+          property="og:image"
+          content="https://github.com/fielstamper/caitlyn.moe/blob/main/src/assets/lbcaitlynmoe.jpg?raw=true"
         />
+        <meta name="twitter:card" content="summary" />
+        <meta name="theme-color" content="#1a1a1a" />
+
         <meta name="apple-mobile-web-app-title" content="Koito" />
         <link rel="manifest" href="/site.webmanifest" />
         <Meta />
