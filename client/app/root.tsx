@@ -67,7 +67,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {/* Discord & Embed Metadata */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="My Music" />
-        <meta property="og:description" content="live listening statistics" />
+        <meta property="og:description" content="check out the stuff i listen to" />
         <meta
           property="og:image"
           content="https://github.com/fielstamper/caitlyn.moe/blob/main/src/assets/lbcaitlynmoe.jpg?raw=true"
