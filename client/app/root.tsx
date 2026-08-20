@@ -54,17 +54,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
             `,
           }}
         />
+       
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        {/* Custom Favicon */}
         <link
           rel="icon"
           type="image/png"
           href="https://raw.githubusercontent.com/fielstamper/caitlyn.moe/main/src/assets/cherryblossom.png"
         />
-
-        {/* Discord & Embed Metadata */}
+       
+        <title>my music</title>
         <meta property="og:type" content="website" />
         <meta property="og:title" content="My Music" />
         <meta property="og:description" content="check out the stuff i listen to" />
